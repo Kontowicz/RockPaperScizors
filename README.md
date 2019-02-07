@@ -5,3 +5,8 @@ This program whith two users can play "Rock, paper scissors" game. Two players p
   <br>
   <em>Game start</em>
 </p>
+<p align="center">
+  <img src="../master/result.PNG" width="350" title="Game start.">
+  <br>
+  <em>Game end. Information about winner.</em>
+</p>
