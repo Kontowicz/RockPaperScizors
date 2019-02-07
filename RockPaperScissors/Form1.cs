@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -30,8 +24,8 @@ namespace RockPaperScissors
             }
             else
             {
-                pictureBox1.Image = new Bitmap(@"D:\Programy\C#\RockPaperScissors\RockPaperScissors\pytanie.jpg");
-                pictureBox2.Image = new Bitmap(@"D:\Programy\C#\RockPaperScissors\RockPaperScissors\pytanie.jpg");
+                pictureBox1.Image = new Bitmap(@"..\..\pytanie.jpg");
+                pictureBox2.Image = new Bitmap(@"..\..\pytanie.jpg");
             }
 
         }
@@ -53,12 +47,12 @@ namespace RockPaperScissors
             {
                 message_box("Game is dead-head! \n Play again?", "The winner is...");
             }
-            //wygrane lewego
+            // Left win 
             if ((pic1 == 1 && pic2 == 2) || (pic1 == 2 && pic2 == 0) || (pic1==0 && pic2==1))
             {
                 message_box("Left player win!\n Play again?", "The winner is...");
             }
-            //wygrane prawego
+            // Right win 
             if ((pic2 == 1 && pic1 == 2) || (pic2 == 2 && pic1 == 0) || (pic2 == 0 && pic1 == 1))
             {
                 message_box("Right player win!\n Play again?", "The winner is...");
@@ -70,5 +64,6 @@ namespace RockPaperScissors
         {
             who_win();   
         }
+
     }
 }

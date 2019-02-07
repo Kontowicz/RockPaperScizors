@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
@@ -14,11 +10,11 @@ namespace RockPaperScissors
         private int index;
         public picture()
         {
-            image[0] = new Bitmap(@"d:\programy\c#\rockpaperscissors\rockpaperscissors\kamien.jpg");
+            image[0] = new Bitmap(@"..\..\kamien.jpg");
             tab[0] = 0;
-            image[1] = new Bitmap(@"d:\programy\c#\rockpaperscissors\rockpaperscissors\nozyce.jpg");
+            image[1] = new Bitmap(@"..\..\nozyce.jpg");
             tab[1] = 1;
-            image[2] = new Bitmap(@"d:\programy\c#\rockpaperscissors\rockpaperscissors\papier.jpg");
+            image[2] = new Bitmap(@"..\..\papier.jpg");
             tab[2] = 2;
         }
 
