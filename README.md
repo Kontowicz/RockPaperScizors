@@ -1,2 +1,2 @@
 # RockPaperScizors
-Prosta symulacja gry w pamier kamień nożyce.
+This program whith two users can play "Rock, paper scissors" game. Two players participate the game - left and right player. Program randomly chose state for left and right player, then is show information abut winner.
